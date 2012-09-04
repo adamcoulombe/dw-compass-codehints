@@ -1,0 +1,44 @@
+﻿<macromedia-extension
+	 name="SASS Code Hinting for Dreamweaver"
+	 version="1.0.0"
+	 type="codehint codesnippet"
+	 force-quit="true"
+	 locked="false">
+
+	<author name="www.adam.co" />
+
+	<products>
+		<product name="Dreamweaver" version="8" primary="true" />
+	</products>
+
+	<update method="directlink" url="http://wordpress-codehints.googlecode.com/svn/trunk/update-info.xml" />
+
+	<description>
+		<![CDATA[
+		SASS Code Hinting for Dreamweaver
+		]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	In Dreamweaver go to <b>Edit > Preferences > Code Hints</b><br>
+and check the box next to "SASS Code Hints".
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	This program is free software, you can redistribute it and modify it under the terms of the GNU GPLv3:<br>
+http://www.gnu.org/licenses/gpl-3.0.txt
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="SASSCodeHints.xml" destination="$dreamweaver/Configuration/CodeHints" file-type="ordinary" />
+	</files>
+
+	<signatures>
+		<signature name="SASS Code Hinting for Dreamweaver" extensiontype="0" signed="true" certificateType="0" publisher="www.adam.co" />
+	</signatures>
+
+</macromedia-extension>

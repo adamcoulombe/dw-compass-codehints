@@ -1,0 +1,199 @@
+<codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+
+<menugroup MMString:name="SASS_codehints_1" id="SASS_CodeHints">
+  <description>
+  <MMString:loadString id="SASS_codehints_2" />
+  </description>
+  
+  <menu pattern='@' additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()"  DOCTYPES="CSS" allowwhitespaceprefix="true" displayrestriction="css">
+	<menuitem label="@include" value="include " icon="shared/mm/images/hintMisc.gif" />
+  </menu>
+  <menu pattern='@include ' additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()"  DOCTYPES="CSS" allowwhitespaceprefix="true" displayrestriction="css">
+  	<menuitem label="appearance()" value="appearance(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background-clip()" value="background-clip(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background-origin()" value="background-origin(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background-size()" value="background-size(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-radius()" value="border-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-corner-radius()" value="border-corner-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-top-left-radius()" value="border-top-left-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-top-right-radius()" value="border-top-right-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-bottom-left-radius()" value="border-bottom-left-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-bottom-right-radius()" value="border-bottom-right-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-top-radius()" value="border-top-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-right-radius()" value="border-right-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-bottom-radius()" value="border-bottom-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-left-radius()" value="border-left-radius(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-shadow()" value="box-shadow(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="single-box-shadow()" value="single-box-shadow(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-sizing()" value="box-sizing(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="display-box()" value="display-box" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-orient()" value="box-orient(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-align()" value="box-align(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-flex()" value="box-flex(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-flex-group()" value="box-flex-group(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-ordinal-group()" value="box-ordinal-group(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-direction()" value="box-direction(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-lines()" value="box-lines(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="box-pack()" value="box-pack(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="columns()" value="columns(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-count()" value=column-count("" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-gap()" value="column-gap(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-width()" value="column-width(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-rule()" value="column-rule(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-break()" value="column-break(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-rule-width()" value="column-rule-width(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-rule-style()" value="column-rule-style(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-rule-color()" value="column-rule-color(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-break-before()" value="column-break-before(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-break-after()" value="column-break-after(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="column-break-inside()" value="column-break-inside(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="filter()" value="filter(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="font-face()" value="font-face(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="word-break()" value="word-break(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="hyphens()" value="hyphens(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="hyphenation" value="hyphenation;" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background()" value="background(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background-with-css2-fallback()" value="background-with-css2-fallback(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="background-image()" value="background-image(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="filter-gradient()" value="filter-gradient(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="border-image()" value="border-image(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="list-style-image()" value="list-style-image(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="list-style()" value="list-style(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="content()" value="content(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inline-block()" value="inline-block(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="opacity()" value="opacity(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transparent" value="transparent;" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="opaque" value="opaque;" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="flow-into()" value="flow-into(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="flow-from()" value="flow-from(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="experimental()" value="experimental(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="experimental-value()" value="experimental-value(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="text-shadow()" value="text-shadow(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="single-text-shadow()" value=single-text-shadow("" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="apply-origin()" value="apply-origin(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transform-origin()" value="transform-origin(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transform()" value="transform(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transform2d()" value="transform2d(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transform3d()" value="transform3d(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="perspective()" value="perspective(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="perspective-origin()" value="perspective-origin(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transform-style()" value="transform-style(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="backface-visibility()" value="backface-visibility(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="scale()" value="scale(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="scaleX()" value="scaleX(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="scaleY()" value="scaleY(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="scaleZ()" value="scaleZ(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="scale3d()" value="scale3d(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="rotate()" value="rotate(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="rotateZ()" value="rotateZ(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="rotateX()" value="rotateX(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="rotateY()" value="rotateY(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="rotate3d()" value="rotate3d(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="translate()" value="translate(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="translateX()" value="translateX(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="translateY()" value="translateY(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="translateZ()" value="translateZ(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="translate3d()" value="translate3d(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="skew()" value="skew(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="skewX()" value="skewX(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="skewY()" value=skewY("" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="create-transform()" value="create-transform(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="simple-transform()" value="simple-transform(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transition-property()" value="transition-property(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transition-duration()" value="transition-duration(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transition-timing-function()" value="transition-timing-function(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transition-delay()" value="transition-delay(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="single-transition()" value="single-transition(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="transition()" value="transition(" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="user-select()" value="user-select(" icon="shared/mm/images/hintMisc.gif" />
+  </menu>
+  
+	<function pattern="appearance($ap)" DOCTYPES="CSS" />
+	<function pattern="background-clip($clip)" DOCTYPES="CSS" />
+	<function pattern="background-size($size-1, [ $size-2, ... ])" DOCTYPES="CSS" />
+	<function pattern="border-radius($radius, [ $vertical-radius ])" DOCTYPES="CSS" />
+	<function pattern="border-corner-radius($vert, $horz, [ $radius ])" DOCTYPES="CSS" />
+	<function pattern="box-shadow($shadow-1, [ $shadow-2, ... ]) " DOCTYPES="CSS" />
+	<function pattern="single-box-shadow([ $color, $hoffset, $voffset, $blur, $spread, $inset ])" DOCTYPES="CSS" />
+	<function pattern="box-sizing($bs)" DOCTYPES="CSS" />
+	<function pattern="box-orient($orientation)" DOCTYPES="CSS" />	
+	<function pattern="box-align($alignment)" DOCTYPES="CSS" />	
+	<function pattern="box-flex($flex)" DOCTYPES="CSS" />
+	<function pattern="box-flex-group($group)" DOCTYPES="CSS" />	
+	<function pattern="box-ordinal-group($group)" DOCTYPES="CSS" />
+	<function pattern="box-direction($direction)" DOCTYPES="CSS" />	
+	<function pattern="box-lines($lines)" DOCTYPES="CSS" />	
+	<function pattern="box-pack($pack)" DOCTYPES="CSS" />	
+	<function pattern="columns($width-and-count)" DOCTYPES="CSS" />	
+	<function pattern="column-count($count)" DOCTYPES="CSS" />	
+	<function pattern="column-gap($width)" DOCTYPES="CSS" />	
+	<function pattern="column-width($width)" DOCTYPES="CSS" />	
+	<function pattern="column-rule-width($width)" DOCTYPES="CSS" />	
+	<function pattern="column-rule-style($style)" DOCTYPES="CSS" />	
+	<function pattern="column-rule-color($color)" DOCTYPES="CSS" />	
+	<function pattern="column-break-before($value)" DOCTYPES="CSS" />	
+	<function pattern="column-break-after($value)" DOCTYPES="CSS" />	
+	<function pattern="column-break-inside($value)" DOCTYPES="CSS" />	
+	<function pattern="column-break($type, $value)" DOCTYPES="CSS" />	
+	<function pattern="filter($filter-1,[ $filter-2, ...]" DOCTYPES="CSS" />	
+	<function pattern="font-face($name, $font-files, [ $eot, $weight, $style ])" DOCTYPES="CSS" />	
+	<function pattern="word-break($value)" DOCTYPES="CSS" />	
+	<function pattern="hyphens($value)" DOCTYPES="CSS" />	
+	<function pattern="background($background-1, [ $background-2, ... ])" DOCTYPES="CSS" />	
+	<function pattern="background-with-css2-fallback($background-1, [ $background-2, ... ])" DOCTYPES="CSS" />	
+	<function pattern="background-image($image-1, [ $image-2, ... ])" DOCTYPES="CSS" />	
+	<function pattern="filter-gradient($start-color, $end-color, [ $orientation ])" DOCTYPES="CSS" />	
+	<function pattern="border-image($value)" DOCTYPES="CSS" />	
+	<function pattern="list-style-image($image)" DOCTYPES="CSS" />	
+	<function pattern="list-style($value)" DOCTYPES="CSS" />	
+	<function pattern="content($value)" DOCTYPES="CSS" />	
+	<function pattern="inline-block($alignment)" DOCTYPES="CSS" />	
+	<function pattern="opacity($opacity)" DOCTYPES="CSS" />	
+	<function pattern="flow-into($target)" DOCTYPES="CSS" />	
+	<function pattern="flow-from($target)" DOCTYPES="CSS" />	
+	<function pattern="experimental($property, $value, [ $moz,  $webkit, $o, $ms, $khtml, $official ])" DOCTYPES="CSS" />	
+	<function pattern="experimental-value($property, $value, [ $moz,  $webkit, $o, $ms, $khtml, $official ])" DOCTYPES="CSS" />		
+	<function pattern="text-shadow($shadow-1, [ $shadow-2, ... ]" DOCTYPES="CSS" />	
+	<function pattern="single-text-shadow([ $hoff, $voff, $blur,  $spread,  $color ])" DOCTYPES="CSS" />	
+	<function pattern="apply-origin($origin, $only3d)" DOCTYPES="CSS" />		
+	<function pattern="transform-origin([ $origin-x, $origin-y, $origin-z, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="transform( $transform,  [ $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="transform2d($trans)" DOCTYPES="CSS" />		
+	<function pattern="transform3d($trans)" DOCTYPES="CSS" />	
+	<function pattern="perspective($p)" DOCTYPES="CSS" />	
+	<function pattern="perspective-origin($origin)" DOCTYPES="CSS" />		
+	<function pattern="transform-style($style)" DOCTYPES="CSS" />	
+	<function pattern="backface-visibility($visibility)" DOCTYPES="CSS" />	
+	<function pattern="scale([ $scale-x, $scale-y, $perspective, $only3d ])" DOCTYPES="CSS" />		
+	<function pattern="scaleX([ $scale, $perspective, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="scaleY([ $scale, $perspective, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="scaleZ([ $scale, $perspective ])" DOCTYPES="CSS" />
+	<function pattern="scale3d([ $scale-x, $scale-y, $scale-z, $perspective ])" DOCTYPES="CSS" />	
+	<function pattern="rotate([ $rotate, $perspective, $only3d ])" DOCTYPES="CSS" />		
+	<function pattern="rotateZ([ $rotate, $perspective, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="rotateX([ $rotate, $perspective ])" DOCTYPES="CSS" />	
+	<function pattern="rotateY([ $rotate, $perspective ])" DOCTYPES="CSS" />
+	<function pattern="rotate3d([ $vector-x, $vector-y, $vector-z, $rotate, $perspective ])" DOCTYPES="CSS" />	
+	<function pattern="translate([ $translate-x, $translate-y, $perspective, $only3d ])" DOCTYPES="CSS" />		
+	<function pattern="translateX([ $translate, $perspective, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="translateY([ $translate, $perspective, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="translateZ([ $translate, $perspective ])" DOCTYPES="CSS" />
+	<function pattern="translate3d([ $translate-x, $translate-y, $translate-z, $perspective ])" DOCTYPES="CSS" />
+	<function pattern="skew([ $skew-x, $skew-y, $only3d ])" DOCTYPES="CSS" />		
+	<function pattern="skewX([ $skew, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="skewY([ $skew, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="create-transform([ $perspective, $scale-x, $scale-y, $scale-z, $rotate-x, $rotate-y, $rotate-z, $rotate3d, $trans-x, $trans-y, $trans-z, $skew-x, $skew-y, $origin-x, $origin-y, $origin-z, $only3d ])" DOCTYPES="CSS" />	
+	<function pattern="simple-transform([ $scale, $rotate, $trans-x, $trans-y, $skew-x, $skew-y, $origin-x, $origin-y] )" DOCTYPES="CSS" />	
+	<function pattern="transition-property($property-1, [ $property-2 ])" DOCTYPES="CSS" />
+	<function pattern="transition-duration($duration-1, [ $duration-2 ])" DOCTYPES="CSS" />
+	<function pattern="transition-timing-function($function-1, [ $function-2 ])" DOCTYPES="CSS" />
+	<function pattern="transition-delay($delay-1, [ $delay-2 ])" DOCTYPES="CSS" />		
+	<function pattern="single-transition([ $property,  $duration, $timing-function, $delay ])" DOCTYPES="CSS" />	
+	<function pattern="transition($transition-1, [ $transition-2, ... ])" DOCTYPES="CSS" />	
+	<function pattern="user-select($select)" DOCTYPES="CSS" />		
+
+  </menu>
+    	  
+</menugroup>
+
+</codehints>
