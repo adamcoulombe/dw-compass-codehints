@@ -11,7 +11,7 @@
 		<product name="Dreamweaver" version="8" primary="true" />
 	</products>
 
-	<update method="directlink" url="http://wordpress-codehints.googlecode.com/svn/trunk/update-info.xml" />
+	<update method="directlink" url="https://raw.github.com/adamcoulombe/dw-compass-codehints/master/update-info.xml" />
 
 	<description>
 		<![CDATA[
