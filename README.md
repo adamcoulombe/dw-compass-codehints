@@ -1,7 +1,7 @@
 SASS Compass CSS3 Code Hinting for Dreamweaver
 ==============================================
 
-This Adobe Dreamweaver extension provides code hinting for the CSS3 functions available in SASS Compass.
+This Adobe Dreamweaver extension provides SASS code coloring and code hinting for the CSS3 functions available in SASS Compass.
 
 Right now this is pretty quick and dirty and currently only supports the CSS3 portion of the Compass api.
 
