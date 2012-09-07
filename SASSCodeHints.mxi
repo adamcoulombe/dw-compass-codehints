@@ -1,6 +1,6 @@
 ﻿<macromedia-extension
 	 name="SASS Code Hinting for Dreamweaver"
-	 version="1.0.0"
+	 version="1.0.1"
 	 type="codehint codesnippet"
 	 force-quit="true"
 	 locked="false">
@@ -36,6 +36,21 @@ http://www.gnu.org/licenses/gpl-3.0.txt
 	<files>
 		<file source="SASSCodeHints.xml" destination="$dreamweaver/Configuration/CodeHints" file-type="ordinary" />
 	</files>
+	<documenttype-changes>
+		<documenttype-insert>
+			<documenttype file="Default.css" id="CSS" internaltype="Text" macfileextension="css,less,sass,scss" winfileextension="css,less,sass,scss" writebyteordermark="false">
+				<TITLE>
+					<MMString:loadString id="mmdocumenttypes_30" />
+				</TITLE>
+				<description>
+					<MMString:loadString id="mmdocumenttypes_31" />
+				</description>
+			</documenttype>
+		</documenttype-insert>
+	</documenttype-changes>
+	<extensions-changes>
+		<extension-insert extension="LESS,SASS,SCSS" description="Style Sheets" />
+	</extension-changes>
 
 	<signatures>
 		<signature name="SASS Code Hinting for Dreamweaver" extensiontype="0" signed="true" certificateType="0" publisher="www.adam.co" />
